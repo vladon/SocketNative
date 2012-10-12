@@ -1,13 +1,5 @@
 library SocketNative;
 
-{$IFDEF WIN32}
-{$LIBSUFFIX '32'}
-{$ENDIF}
-
-{$IFDEF WIN64}
-{$LIBSUFFIX '64'}
-{$ENDIF}
-
 uses
   System.SysUtils,
   System.Classes,
